@@ -4,48 +4,48 @@ int main(){
 
     int num, cont=1, total;
 
-    printf("*** TABUADA DE 1 NUMERO (DO-WHILE) ***\n\n\n");
+    printf("*** TABUADA DE 1 NUMERO (WHILE) ***\n\n\n");
 
     printf("Insira um numero inteiro: ");
     scanf("%d", &num);
 
     printf(" \n\n*** SOMA ***\n\n");
-    do{
+   while(cont <= 10){
         total = num + cont;
 
         printf("%d + %d = %d\n", num, cont, total);
         cont++;
-    }while(cont <= 10);
+    }
 
 cont = 1;
 
  printf(" \n\n*** SUBTRACAO ***\n\n");
-    do{
+    while(cont <= 10){
         total = num - cont;
 
         printf("%d - %d = %d\n", num, cont, total);
         cont++;
-    }while(cont <= 10);
+    }
 
     cont = 1;
 
  printf("\n\n*** MULTIPLICACAO ***\n\n");
-    do{
+    while(cont <= 10){
         total = num * cont;
 
         printf("%d * %d = %d\n", num, cont, total);
         cont++;
-    }while(cont <= 10);
+    }
 
 cont = 1;
 
  printf("\n\n*** DIVISAO ***\n\n");
-    do{
+    while(cont <= 10){
         total = num / cont;
 
         printf("%d / %d = %d\n", num, cont, total);
         cont++;
-    }while(cont <= 10);
+    }
 
 return 0;
 
