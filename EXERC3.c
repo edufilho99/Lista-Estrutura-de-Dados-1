@@ -30,7 +30,7 @@ int main(){
         a3 = sqrt(pow(w,2)+pow(z,2));
 
         printf("O resultado eh: %f", a3);
-
+         printf("\nFim do programa!");
 
     return 0;
 
